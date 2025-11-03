@@ -7,19 +7,17 @@ public class Car
    private int year;
    
    // constructor: set instance variables to default values
-   public Car()
-   {
+   public Car() {
       // 1. set the instance variables to default values "" and 2019
-      
-   
+      this.model = "";
+      this.year = 2019;
    }
    
    // constructor: set instance variables to init parameters
-   public Car(String initModel, int initYear)
-   {
+   public Car(String initModel, int initYear) {
       // 2. set the instance variables to the init parameter variables
-   
-   
+      this.model = initModel;
+      this.year = initYear;   
    }
    
    // Print Car info
@@ -33,8 +31,8 @@ public class Car
    public static void main(String[] args)
    {
       // 3. call the constructor to create 2 new Car objects using the 2 constructors. car1 will be the default values. car2 should be a Honda 2010 car.
-      Car car1 = 
-      Car car2 = 
+      Car car1 = new Car();
+      Car car2 = new Car("Honda", 2020);
       
       car1.print();
       car2.print();

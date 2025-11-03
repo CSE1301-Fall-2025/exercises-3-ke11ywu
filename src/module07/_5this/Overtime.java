@@ -1,16 +1,13 @@
 package module07._5this;
 
-public class Overtime
-{
+public class Overtime {
 	private double payWithOvertime;
 
-	public Overtime(Pay p)
-	{
+	public Overtime(Pay p) {
 		payWithOvertime = p.getPay() * 1.5;
 	}
 
-	public double getOvertimePay()
-	{
+	public double getOvertimePay() {
 		return payWithOvertime;
 	}
 }

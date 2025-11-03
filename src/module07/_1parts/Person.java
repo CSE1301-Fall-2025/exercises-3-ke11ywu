@@ -1,8 +1,8 @@
 package module07._1parts;
 
-public class Person 
+public class Person // class signature
 {
-     // instance variables 
+     // instance variables (attributes)
      private String name;
      private String email;
      private String phoneNumber;

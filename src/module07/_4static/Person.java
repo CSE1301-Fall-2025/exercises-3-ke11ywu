@@ -27,7 +27,7 @@ public class Person
    // toString() method
    public String toString() 
    { 
-     return  name + ": " + email + " " + phoneNumber;
+     return name + ": " + email + " " + phoneNumber;
    }
    
    // main method for testing
