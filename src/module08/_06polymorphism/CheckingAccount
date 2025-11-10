@@ -1,0 +1,8 @@
+public class CheckingAccount extends Account{
+    private double overdraftFee;
+
+    public CheckingAccount(String name, double balance){
+        super(name, balance);
+        this.overdraftFee = 0;
+    }
+}

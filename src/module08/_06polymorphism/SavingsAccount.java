@@ -8,6 +8,10 @@ public class SavingsAccount extends Account {
         this.interestRate = interestRate;
     }
 
+    public void compoundInterest(int numYears){
+        super.setBalance(super.getBalance() * Math.pow(1 + interestRate, numYears));
+    }
+
     public String toString(){
         return super.toString() + "\nInterest Rate: " + interestRate;
     }
